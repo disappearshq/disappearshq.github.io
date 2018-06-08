@@ -19,8 +19,7 @@
     </head>
     <body class=" ">
         <a id="start"></a>
-              <!--end of notification-->
-        <div class="nav-container ">
+        <div class="nav-container">
             <div class="bar bar--sm visible-xs">
                 <div class="container">
                     <div class="row">
@@ -36,12 +35,10 @@
                             </a>
                         </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
             </div>
-            <!--end bar-->
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bg--dark" style="border-bottom:1px solid #333">
+
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-1 col-md-2 hidden-xs">
@@ -51,17 +48,63 @@
                                     <img class="logo logo-light" alt="logo" src="img/logo2.png" />
                                 </a>
                             </div>
-                            <!--end module-->
                         </div>
                         <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
                             <div class="bar__module">
                                 <ul class="menu-horizontal text-left">
-                                    <li>
-                                        <a href="products.html">Products</a>
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger">Products</span>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content col-lg-2 col-md-4">
+                                                        <ul class="menu-vertical">
+                                                            <li class="">
+                                                                <a href="vanish.html">
+                                                                    Vanish Messenger
+                                                                </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="index.html#blockstore">
+                                                                    Blockstore
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <a href="security.html">Security</a>
+
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger">Security</span>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content col-lg-2 col-md-4">
+                                                        <ul class="menu-vertical">
+                                                            <li class="">
+                                                                <a href="security.html.html">
+                                                                    How We Use Security?
+                                                                </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="blockchain.html">
+                                                                    What is Blockchain?
+                                                                </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="pdf/report.pdf">
+                                                                    Independent Audit
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
+
                                     <li>
                                         <a href="news.html">News</a>
                                     </li>
@@ -71,75 +114,69 @@
                                     <li>
                                         <a href="investors.html">Investors</a>
                                     </li>
+
                                 </ul>
                             </div>
-                              <div class="bar__module">
-
-                                <a class="btn btn--sm type--uppercase" href="#">
+                            <div class="bar__module">
+                                <a class="btn btn--sm type--uppercase" href="http://vanish.im/dl">
                                     <span class="btn__text colorWhite">
                                         Try Free
                                     </span>
                                 </a>
                             </div>
-                            <!--end module-->
-                       
-                            <!--end module-->
+
                         </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
             </nav>
-            <!--end bar-->
+
         </div>
+
         <div class="main-container">
 
+            <section class="text-left imagebg space--lg" data-overlay="6" style="background:#1A1A1A; background-size:contain; background-repeat: no-repeat; padding-bottom:2em; padding-top: 0em;">
 
-            <section class="text-left imagebg space--lg" data-overlay="0" style="background:#fafafa; background-size:cover; padding-bottom:8em;">
-                <div id="particles-js" style="z-index: -9999;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8" style="text-align: left; float: left !important; margin: none !important;">
-                                <p class="lead  typed-text typed-text--cursor" data-typed-strings="With strong security and the right technology people and institutions today can still communicate securely and freely without worrying about someone looking over your should ^5000" style="font-size:30px; color:#000; font-weight: 400;">
-                                    With strong security and the right technology people and institutions today can still communicate securely and freely without worrying about someone looking over your should
-                                </p>
+                <canvas id="canvas" style="position: relative; top: 10px;"></canvas>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: left; float: left !important; margin: none !important;">
+                            <p class="lead  typed-text typed-text--cursor" data-typed-strings="With strong security and the right technology people and institutions today can still communicate securely and freely without worrying about someone looking over your should ^5000" style="font-size:20px; color:#fff; font-weight: 400;">
+                                With strong security and the right technology people and institutions today can still communicate securely and freely without worrying about someone looking over your should
+                            </p>
 
-                            </div>
                         </div>
-                        <!--end of row-->
                     </div>
                 </div>
-                <!--end of container-->
+
             </section>
-            
+
           
             <section class="text-center" style="padding-bottom:2.4em; padding-top: 2em;">
                 <div class="container">
+                    <h3 style="font-weight:700;">Leadership</h3><hr>
                     <div class="row">
                         <div class="col-md-3" style="text-align: left;">
                             <div class="feature feature-8">
                                 <img alt="Image" src="https://s3-us-west-2.amazonaws.com/disappears/team-photos/jaiten.jpg" />
                                 <h5 style="font-weight:700; font-size:25px;">Jaiten Gill</h5>
                                 <span style="padding-top:20px; padding-bottom:20px;">Founder &amp; CEO</span><br>
+                                <p>Jaiten is passionate about data security and focuses on technology at Disappears.com, including leading the iOS and Android development of Vanish Messenger.</p>
+
                                 <ul class="social-list list-inline list--hover">
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-mail icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                   
-                                                   
-                                                    
-                                                </ul>
-
-
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-mail icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                        </a>
+                                    </li>                                    
+                                </ul>
                             </div>
                         </div>
+
                         <div class="col-md-3" style="text-align: left;">
                             <div class="feature feature-8">
                                 <img alt="Image" src="https://s3-us-west-2.amazonaws.com/disappears/team-photos/dylan.jpg" />
@@ -147,25 +184,21 @@
                                 <span style="padding-top:20px; padding-bottom:20px;">Founder &amp; COO</span><br>
                                 <p>Dylan graduated cum laude from the University of Southern California’s School of Cinematic Arts. During his university career, he was a member of the USC Men's Rugby Team, competing in the D-1 PAC Rugby Conference....</p>
                                 <ul class="social-list list-inline list--hover">
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-mail icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                   
-                                                   
-                                                    
-                                                </ul>
-                                                                                <span>@Dylan99</span>
-
-
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-mail icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <span>@Dylan99</span>
                             </div>
                         </div>
+
                         <div class="col-md-3" style="text-align: left;">
                             <div class="feature feature-8">
                                 <img alt="Image" src="https://s3-us-west-2.amazonaws.com/disappears/team-photos/jordan.jpg" />
@@ -173,25 +206,21 @@
                                 <span style="padding-top:20px; padding-bottom:20px;">Founder &amp; CFO</span><br>
                                 <p>Jordan is entering his junior year at the University of California Berkeley majoring in History & Political Economy. As an incoming freshman, he was a finalist for the CAL Berkeley Leadership Award.  </p>
                                 <ul class="social-list list-inline list--hover">
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-mail icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                   
-                                                   
-                                                    
-                                                </ul>
-                                                                                <span>@jtsidoo</span>
-
-
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-mail icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <span>@jtsidoo</span>
                             </div>
                         </div>
+
                         <div class="col-md-3" style="text-align: left;">
                             <div class="feature feature-8">
                                 <img alt="Image" src="https://uploads.toptal.io/user/photo/9238/large_19-09-12_p._Jakub_Porzuczek_CD-CV.jpg" />
@@ -199,23 +228,18 @@
                                 <span style="padding-top:20px; padding-bottom:20px;">Principal Engineer</span><br>
                                 <p>Jakub is an Android developer with 4+ years experience. He has extensive knowledge on the Android SDK, experience in implementing a range of applications, from simple DB backed ones to complex solutions.</p>
                                 <ul class="social-list list-inline list--hover">
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-mail icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                   
-                                                   
-                                                    
-                                                </ul>
-                                                                                <span>@kuba</span>
-
-
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-mail icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <span>@kuba</span>
                             </div>
                         </div>
                     </div>
@@ -223,6 +247,7 @@
                 </div>
                 <!--end of container-->
             </section>
+
             <section class="text-center">
                 <div class="container">
                     <h3 style="font-weight:700;">Advisors</h3><hr>
@@ -234,22 +259,17 @@
                                 <span style="padding-top:20px; padding-bottom:20px;">Founder &amp; CEO</span><br>
                                 <p>Ash started his career building mobile applications. At the age of 16, Ash sold a software company that built personalized mobile applications for high schools and school districts. He dropped out of high school his junior year, and co-founded 1StudentBody. </p>
                                 <ul class="social-list list-inline list--hover">
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-mail icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                   
-                                                   
-                                                    
-                                                </ul>
-
-
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-mail icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-md-3" style="text-align: left;">
@@ -259,35 +279,62 @@
                                 <span style="padding-top:20px; padding-bottom:20px;">Founder &amp; COO</span><br>
                                 <p>Jerry is currently studying and teaching at Harvard University. In 2014 he was ranked 7th in the USA for his coding abilities at the Computing Olympics. He has a strong technical background having worked at Facebook, Palantir Technologies.</p>
                                 <ul class="social-list list-inline list--hover">
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-mail icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#">
-                                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                                        </a>
-                                                    </li>
-                                                   
-                                                   
-                                                    
-                                                </ul>
-
-
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-mail icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="socicon socicon-linkedin icon icon--xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="text-center">
+              <section style="padding-top: 0em !important; padding-bottom: 0em !important">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider slider--columns" data-arrows="true" data-paging="true">
+                                <ul class="slides">
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-6.jpg" data-lightbox="Gallery 1">
+                                            <img alt="Image" src="img/team1.png" />
+                                        </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-5.jpg" data-lightbox="Gallery 1">
+                                            <img alt="Image" src="img/team2.png" />
+                                        </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-4.jpg" data-lightbox="Gallery 1">
+                                            <img alt="Image" src="img/team3.png" />
+                                        </a>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <a href="img/work-3.jpg" data-lightbox="Gallery 1">
+                                            <img alt="Image" src="img/team4.png" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end row-->
+            </section>
+            <section class="text-center" style="padding-top:4em; padding-bottom: 4em;">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-6">
                             <div class="cta">
                                 <h2>Want to help build the future of Secure Messaging?</h2>
                            
-                                <a class="btn btn--primary type--uppercase" href="#">
+                                <a class="btn btn--primary type--uppercase" href="mailto:careers@disappears.com">
                                     <span class="btn__text">
                                         Join Us
                                     </span>
@@ -300,20 +347,17 @@
                 <!--end of container-->
             </section>
             
-                  
-            
-           
-            <footer class="space--sm footer-2 bg--dark">
+          <footer class="space--sm footer-2 bg--dark">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-lg-3 col-6">
                             <h6 class="type--uppercase">Products</h6>
                             <ul class="list--hover">
                                 <li>
-                                    <a href="#">Vanish Messenger</a>
+                                    <a href="vanish.html">Vanish Messenger</a>
                                 </li>
                                 <li>
-                                    <a href="#">Blockchain File Storage</a>
+                                    <a href="index.html#blockstore">Blockchain File Storage</a>
                                 </li>
                             </ul>
                         </div>
@@ -321,13 +365,13 @@
                             <h6 class="type--uppercase">Security</h6>
                             <ul class="list--hover">
                                 <li>
-                                    <a href="#">How We Use Security?</a>
+                                    <a href="security.html">How We Use Security?</a>
                                 </li>
                                 <li>
-                                    <a href="#">What is Blockchain?</a>
+                                    <a href="blockchain.html">What is Blockchain?</a>
                                 </li>
                                 <li>
-                                    <a href="#">Indepdent Audit</a>
+                                    <a href="pdf/report.pdf">Indepdent Audit</a>
                                 </li>
                             </ul>
                         </div>
@@ -335,16 +379,16 @@
                             <h6 class="type--uppercase">Company</h6>
                             <ul class="list--hover">
                                 <li>
-                                    <a href="#">About Us</a>
+                                    <a href="about.html">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">Careers</a>
+                                    <a href="mailto:careers@disappears.com">Careers</a>
                                 </li>
                                 <li>
-                                    <a href="#">News</a>
+                                    <a href="news.html">News</a>
                                 </li>
                                  <li>
-                                    <a href="#">Investors</a>
+                                    <a href="investors.html">Investors</a>
                                 </li>
                             </ul>
                         </div>
@@ -398,128 +442,136 @@
                 </div>
                 <!--end of container-->
             </footer>
+
         </div>
         <!--<div class="loader"></div>-->
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
         </a>
         <script src="js/jquery-3.1.1.min.js"></script>
-              <script src="js/particles.js"></script>
+   
+<script>
 
-<script type="text/javascript">
-particlesJS('particles-js',
-{
-  "particles": {
-    "number": {
-      "value": 80,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#50e3c2"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-}
+  var canvas = document.getElementById('canvas');
+  canvas.width = window.innerWidth;
+  canvas.height = "100";
+  var ctx = canvas.getContext('2d');
+  ctx.globalCompositeOperation = 'lighter';
+      canvas.style.marginTop = "0px";
 
-);
+  var requestAnimationFrame =
+      window.requestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      window.msRequestAnimationFrame;
+  
+  var points = [];
+  var numPoints = 400;
+  var distToTravel = 25;
+  var distortionLevel = 4;
+  
+  function Draw() {
+    ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    ctx.beginPath();
+    
+    for(var x = 0; x < points.length; x++) {
+      
+      if(points[x].life > 0) {
+        points[x].Dying();
+      } else {
+        points.splice(x, 1);
+        points.unshift(new Point());
+      }
+      
+      points[x].UpdatePath();
+      points[x].Move();
+      
+      ctx.moveTo(points[x].x, points[x].y);
+      var rando = GetRandom(0, distortionLevel);
+      for(var y = 0; y < points[x].path.length; y++) {
+        ctx.lineTo((points[x].path[y].x + GetRandom(-rando, rando)), (points[x].path[y].y + GetRandom(-rando, rando)));
+      } 
+    }
+    ctx.strokeStyle = 'rgba(80,227,195, 0.4)';
+    ctx.stroke();
+    
+    requestAnimationFrame(Draw);
+  }
+  
+  
+  
+  
+  function Point() {
+    this.x = window.innerWidth / 2;
+    this.y = window.innerHeight / 2;
+    this.direction = GetRandom(1, 5);
+    this.distanceMoved = 0;
+    this.life = GetRandom(1, 10);
+    this.speed = 3;
+    this.path = [];
+    this.maxPath = 15;
+  }
+  
+  Point.prototype.Dying = function() {
+    this.life -= 0.01;
+  }
+  
+  Point.prototype.Move = function() {
+    this.distanceMoved += this.speed;
+    
+    switch(this.direction) {
+      case 1:
+        //moving up
+        this.y -= this.speed;
+        break;
+      case 2: 
+        //moving right
+        this.x += this.speed;
+        break;
+      case 3: 
+        //moving down
+        this.y += this.speed;
+        break;
+      case 4:
+        //moving left
+        this.x -= this.speed;
+        break
+    }
+    
+    if(this.distanceMoved > distToTravel) {
+      this.direction = GetRandom(1, 5);
+      this.distanceMoved = 0;
+    }
+  }
+  
+  Point.prototype.UpdatePath = function() {
+    if(this.path.length > this.maxPath) {
+      this.path.splice(this.path.length - 1, 1);
+      this.path.unshift({
+        x: this.x,
+        y: this.y
+      });
+    } else {
+      this.path.unshift({
+        x: this.x,
+        y: this.y
+      });
+    }
+  }
+  
+  function GetPoints() {
+    for(var x = 0; x < numPoints; x++) {
+      points.push(new Point());
+    }
+  }
+  
+  function GetRandom(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+  
+  GetPoints();
+  Draw();
+  
 </script>
         <script src="js/flickity.min.js"></script>
         <script src="js/easypiechart.min.js"></script>
