@@ -35,6 +35,7 @@ Main Components
 
 .cd-section {
   height: 100vh;
+  padding-top: 14.7em !important; 
 }
 .cd-section h2 {
   line-height: 100vh;
@@ -44,9 +45,19 @@ Main Components
 .cd-section:first-of-type {
   background-color: #1A1A1A;
 }
+
+@media all and (max-width: 1000px) {
+  .cd-section {
+    height: auto !important;
+    padding-top: 2em !important;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+}
 .cd-section:first-of-type > div::before {
   /* alert -> all scrolling effects are not visible on small devices */
-  content: 'Effects not visible on mobile!';
   position: absolute;
   width: 100%;
   text-align: center;
@@ -61,13 +72,13 @@ Main Components
   background-color: #1A1A1A;
 }
 .cd-section:nth-of-type(3) {
-  background-color: #50e3c2;
+  background-color: #1A1A1A;
 }
 .cd-section:nth-of-type(4) {
-  background-color: #fff;
+  background-color: #1A1A1A;
 }
 .cd-section:nth-of-type(5) {
-  background-color: #f06a59;
+  background-color: #1A1A1A;
 }
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;

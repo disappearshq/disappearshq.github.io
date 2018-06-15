@@ -43,7 +43,7 @@
                 </div>
                 <!--end of container-->
             </div>
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute bg--dark" style="border-bottom:1px solid #333">
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs bar--absolute">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-1 col-md-2 hidden-xs">
@@ -53,17 +53,63 @@
                                     <img class="logo logo-light" alt="logo" src="img/logo2.png" />
                                 </a>
                             </div>
-                            <!--end module-->
                         </div>
                         <div class="col-lg-11 col-md-12 text-right text-left-xs text-left-sm">
                             <div class="bar__module">
                                 <ul class="menu-horizontal text-left">
-                                    <li>
-                                        <a href="products.html">Products</a>
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger">Products</span>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content col-lg-2 col-md-4">
+                                                        <ul class="menu-vertical">
+                                                            <li class="">
+                                                                <a href="vanish.html">
+                                                                    Vanish Messenger
+                                                                </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="index.html#blockstore">
+                                                                    Blockstore
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
-                                    <li>
-                                        <a href="security.html">Security</a>
+
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger">Security</span>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content col-lg-2 col-md-4">
+                                                        <ul class="menu-vertical">
+                                                          <!--   <li class="">
+                                                                <a href="security.html.html">
+                                                                    How We Use Security?
+                                                                </a>
+                                                            </li> -->
+                                                            <li class="">
+                                                                <a href="blockchain.html">
+                                                                    What is Blockchain?
+                                                                </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a href="pdf/report.pdf">
+                                                                    Independent Audit
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
+
                                     <li>
                                         <a href="news.html">News</a>
                                     </li>
@@ -73,37 +119,36 @@
                                     <li>
                                         <a href="investors.html">Investors</a>
                                     </li>
+
                                 </ul>
                             </div>
-                              <div class="bar__module">
-
-                                <a class="btn btn--sm type--uppercase" href="#">
+                            <div class="bar__module">
+                                <a class="btn btn--sm type--uppercase" href="http://vanish.im/dl">
                                     <span class="btn__text colorWhite">
                                         Try Free
                                     </span>
                                 </a>
                             </div>
-                            <!--end module-->
-                       
-                            <!--end module-->
+
                         </div>
                     </div>
-                    <!--end of row-->
                 </div>
-                <!--end of container-->
             </nav>
         </div>
 
         <div class="main-container">
-            <section class="imageblock switchable switchable--switch feature-large bg--dark space--sm cd-section visible" style="background: #1A1A1A;">
 
-                <div class="imageblock__content col-lg-6 col-md-4 pos-right">
-                    <div class="globe js-globe">
-                        <ul class="globe-list js-list"></ul>
-                        <canvas class="globe-canvas js-canvas"></canvas>
-                    </div>
-                </div>
+             <div class="nextBtn">
                 <div class="container">
+                <a class="ct-btn-scroll ct-js-btn-scroll hide-mobile cd-prev" href="" style="height: 30px; width: 30px; left: 10%; top: 90%; position: absolute; z-index:9999; transform: rotate(90deg);"><img alt="Arrow Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                <a class="ct-btn-scroll ct-js-btn-scroll hide-mobile cd-next" href="" style="height: 30px; width: 30px; right: 10%; top: 90%; position: absolute; z-index:9999; transform: rotate(270deg);"><img alt="Arrow Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                </div>
+            </div>
+
+            <section class="imageblock switchable switchable--switch feature-large bg--dark space--sm cd-section visible" style="background: #1A1A1A; padding-top: 5em !important;">
+
+              
+                <div class="container" style="z-index: 9999;">
                     <div class="row">
                         <div class="col-lg-5 col-md-7 mt--2">
                             <h1 style="font-weight:700;">What is BLOCKCHAIN?</h1>
@@ -128,11 +173,29 @@
                     <!--end of row-->
                 </div>
 
+                  <div class="imageblock__content col-lg-6 col-md-4 pos-right animatedglobe">
+                    <div class="globe js-globe">
+                        <ul class="globe-list js-list"></ul>
+                        <canvas class="globe-canvas js-canvas"></canvas>
+                    </div>
+                </div>
+
             </section>
 
-            <section class="space--lg cd-section" style="z-index:10;">
+            <section class="space--lg cd-section" style="z-index:50;">
                 <div class="container">
-                <div class="imageblock__content col-lg-6 bg--dark" style="float:right; padding:10px; border-radius: 10px; border: 1px solid #50e3c2;">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h1 style="font-weight:700; color: #fff;">A blockchain has a list of blocks.</h1>
+                            <p class="lead" style="color: #fff;">
+                                It starts with a single block, called the genesis block. Each block then stores the following information
+                            </p>
+                     
+                            <!--end of modal instance-->
+                        </div>
+                        <div class="imageblock__content col-lg-6 bg--dark" style="float:right; padding:10px; border-radius: 10px; border: 1px solid #50e3c2; margin-top: 20px; ">
                     <div class="tabs-container tabs--vertical" >
                         <ul class="tabs">
                             <li class="active">
@@ -170,31 +233,6 @@
                                         A hash looks like a bunch of random numbers.
 
                                         It is a numeric value that uniquely identifies data, or the "digital fingerprint" of data.
-                                        Hash Properties:
-                                            Hash has a fixed length.
-                                            Same data results to same hash.
-                                            Different data results to different hash practically.
-                                            Hash is easy to compute.
-                                            Infeasible to convert hash to data.
-                                            Small change in data leads to big change in hash.
-
-                                        A valid hash is a hash that meets a certain requirement. For this blockchain, three leading zeros infront of the hash is the requirement for a valid hash.
-
-                                        The number of leading zeros required is the difficulty.
-
-                                        The hashing function takes data as input, and returns a unique hash.
-
-f ( data ) = hash
-
-Since the hash is a "digital fingerprint" of the entire block, the data is the combination of index, timestamp, previous hash, block data, and nonce.
-
-Since data is an input variable for the hash, changing the data will change the hash. The new hash will lose its three leading zeros, and becomes invalid.
-
-A hash change will cause a mutation in the previous hash of subsequent blocks. Since previous hash is used to calculate hash, subsequent hashes will change.
-
-This will lead to a cascading invalidation of blocks.
-
-
                                     </p>
                                 </div>
                             </li>
@@ -227,47 +265,19 @@ In cryptocurrencies such as Bitcoin, the data would include money transactions.
                                     <span class="h5">Nonce</span>
                                 </div>
                                 <div class="tab__content">
+<img src="https://blockchaindemo.io/static/media/nonce.a6291d01.gif" />
+
                                     <p class="lead">
                                         The nonce is the number used to find a valid hash.
 
 The nonce iterates from 0 until a valid hash is found. This uses processing power!
-<img src="https://blockchaindemo.io/static/media/nonce.a6291d01.gif" />
 As difficulty increases, the number of possible valid hashes decreases. With less possible valid hashes, it takes more processing power to find a valid hash.
                                     </p>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                            <!--end of tabs container-->
-                    <!-- <h1>Each block stores the following information</h1>
-                    <p>Index - The index is the position of the block in the chain. </p>
-                    <p>Timestamp - A record of when the block was created. The timestamp helps keep the blockchain in order.</p>
-                    <p>Hash - A hash looks like a bunch of random numbers. It is a numeric value that uniquely identifies data, or the "digital fingerprint" of data. A valid hash is a hash that meets a certain requirement. For this blockchain, three leading zeros infront of the hash is the requirement for a valid hash. The number of leading zeros required is the difficulty. </p>
-                    <p>Previous Hash - The previous hash is the hash of the previous block.</p>
-                    <p>Data - The data stored on the block. In cryptocurrencies such as Bitcoin, the data would include money transactions.</p>
-                    <p>Nonce</p> -->
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 style="font-weight:700; color: #fff;">A blockchain has a list of blocks.</h1>
-                            <p class="lead" style="color: #fff;">
-                                It starts with a single block, called the genesis block. Each block then stores the following information
-                            </p>
-                            <div class="modal-instance block">
-                                <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                <span>
-                                    <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                <div class="modal-container">
-                                    <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                        <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                    </div>
-                                    <!--end of modal-content-->
-                                </div>
-                                <!--end of modal-container-->
-                            </div>
-                            <!--end of modal instance-->
-                        </div>
                     </div>
                     <!--end of row-->
                 </div>
@@ -276,102 +286,59 @@ As difficulty increases, the number of possible valid hashes decreases. With les
 
             
 
-            <section class="space--lg cd-section" style="z-index:10; padding-top: 14.7em;">
-                <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="img/mining.png" />
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Mining A Block</h1>
-                                <p class="lead" style="color: #000;">
-                                    Mining is the process of finding a valid hash.
-                                </p>
-                                <div class="modal-instance block">
-                                    <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                    <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                    <div class="modal-container">
-                                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                        </div>
-                                        <!--end of modal-content-->
-                                    </div>
-                                    <!--end of modal-container-->
-                                </div>
-                                <!--end of modal instance-->
-                            </div>
+            <section class="space--lg cd-section" style="z-index:10; background: #50e3c2;"> 
+                <div class="container" style="margin:0 auto; text-align: center;">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="img/mining.png" />
+                            <h1 style="font-weight:700; color: #000;">Mining A Block</h1>
+                            <p class="lead" style="color: #000;">
+                                Mining is the process of finding a valid hash.
+                            </p>
+                    
+                            <!--end of modal instance-->
                         </div>
-                        <!--end of row-->
                     </div>
+                    <!--end of row-->
                 </div>
             </section>
 
-            <section class="space--lg cd-section" style="padding-top: 14.7em;">
-                <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="img/mining.png" />
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Adding Valid Blocks</h1>
-                                <p class="lead" style="color: #000;">
-                                    When adding a new block to the blockchain, the new block needs to meet these requirements.
-<ul>
-<li>Block index one greater than latest block index.</li>
-<li>Block previous hash equal to latest block hash.</li>
-<li>Block hash meets difficulty requirement.</li>
-<li>Block hash is correctly calculated.</li>
-<li>Other peers on the network will be adding blocks to the blockchain, so new blocks need to be validated.</li>
-</ul>
-                                </p>
-                                <div class="modal-instance block">
-                                    <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                    <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                    <div class="modal-container">
-                                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                        </div>
-                                        <!--end of modal-content-->
-                                    </div>
-                                    <!--end of modal-container-->
-                                </div>
-                                <!--end of modal instance-->
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                </div>
-              </section>
 
-            <section class="space--lg cd-section" style="padding-top: 14.7em; z-index: 10; background: #fff;">
-                 <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="https://cdn.dribbble.com/users/295218/screenshots/3997783/peer-to-peer-economy.png" />
+            <section class="space--lg cd-section" style="z-index:10; background: #50e3c2;"> 
+                <div class="container" style="margin:0 auto; text-align: center;">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="img/mining.png" />
+                            <h1 style="font-weight:700; color: #000;">Adding Valid Blocks</h1>
+                            <p class="lead" style="color: #000;">
+                                    When adding a new block to the blockchain, the new block needs to meet these requirements. Block index one greater than latest block index, Block previous hash equal to latest block hash, Block hash meets difficulty requirement, Block hash is correctly calculated, Other peers on the network will be adding blocks to the blockchain, so new blocks need to be validated
+                            </p>                    
+                        </div>
                     </div>
+                    <!--end of row-->
+                </div>
+            </section>
+
+             <section class="space--lg cd-section" style="z-index: 10; background: #1A1A1A;">
+                 <div class="container">
+                
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Peer to Peer Network</h1>
-                                <p class="lead" style="color: #000;">
+                            <div class="col-lg-6">
+                                <h1 style="font-weight:700; color: #fff;">Peer to Peer Network</h1>
+                                <p class="lead" style="color: #fff;">
                                     A global network of computers work together to keep the blockchain secure, correct, and consistent. Peers' ask for each other's blocks to determine who has the most up-to-date blockchain.he network will be adding blocks to the blockchain, so new blocks need to be validated.
+
                                 </p>
-                                <div class="modal-instance block">
-                                    <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                    <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                    <div class="modal-container">
-                                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                        </div>
-                                        <!--end of modal-content-->
-                                    </div>
-                                    <!--end of modal-container-->
-                                </div>
+                                    <a class="btn btn--secondary type--uppercase" href="blockchain.html">
+                                    <span class="btn__text">
+                                        Learn More About The Peer to Peer Network
+                                    </span>
+                                </a>
                                 <!--end of modal instance-->
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="particles-js1" style="height:390px; margin-top:0px !important;"></div>
                             </div>
                         </div>
                         <!--end of row-->
@@ -379,31 +346,45 @@ As difficulty increases, the number of possible valid hashes decreases. With les
                 </div>
             </section>
 
-            <section class="space--lg cd-section" style="padding-top: 14.7em; z-index: 10; background: #fff;">
+
+            <section class="space--lg cd-section" style="z-index: 10; background: #1A1A1A;">
                  <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="http://www.globalsoftwaresupport.com/wp-content/uploads/2018/04/Untitled-5.png" />
-                    </div>
+                
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Immutability</h1>
-                                <p class="lead" style="color: #000;">
+                            <div class="col-lg-6">
+                                <h1 style="font-weight:700; color: #fff;">Immutability</h1>
+                                <p class="lead" style="color: #fff;">
                                     If a block is mutated, the block, and subsequent blocks become invalid. Invalid blocks are rejected by the peers on the network. They need to be remined to be valid. Earlier blocks will be harder to hack because there are more subsequent invalid blocks to remine.Because peers on the network are always adding new valid blocks, the hacker would have to outmine the network, which requires majority processing power.
+
                                 </p>
-                                <div class="modal-instance block">
-                                    <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                    <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                    <div class="modal-container">
-                                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                        </div>
-                                        <!--end of modal-content-->
-                                    </div>
-                                    <!--end of modal-container-->
-                                </div>
-                                <!--end of modal instance-->
+                                    
+                            </div>
+                            <div class="col-lg-6" style="margin-top: 20px;">
+                                <img src="http://www.globalsoftwaresupport.com/wp-content/uploads/2018/04/Untitled-5.png" />
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                </div>
+            </section>
+          
+          
+            <section class="space--lg cd-section" style="z-index: 10; background: #1A1A1A;">
+                 <div class="container">
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h1 style="font-weight:700; color: #fff;">51% Attack</h1>
+                                <p class="lead" style="color: #fff;">
+                                    If a participant has more than 51% of the network, he could outmine the network and hack the blockchain. When there's more miners in the network, the processing power becomes more distributed and no one has majority power. This leads to a more secure blockchain.
+
+                                </p>
+                                    
+                            </div>
+                            <div class="col-lg-6" style="margin-top: 20px;">
+                                <img src="http://www.globalsoftwaresupport.com/wp-content/uploads/2018/04/Untitled-5.png" />
                             </div>
                         </div>
                         <!--end of row-->
@@ -411,38 +392,7 @@ As difficulty increases, the number of possible valid hashes decreases. With les
                 </div>
             </section>
 
-            <section class="space--lg cd-section" style="padding-top: 14.7em; z-index: 10; background: #fff;">
-                 <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="http://www.globalsoftwaresupport.com/wp-content/uploads/2018/04/Untitled-5.png" />
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">51% Attack</h1>
-                                <p class="lead" style="color: #000;">
-                                    If a participant has more than 51% of the network, he could outmine the network and hack the blockchain. When there's more miners in the network, the processing power becomes more distributed and no one has majority power. This leads to a more secure blockchain.
-                                </p>
-                                <div class="modal-instance block">
-                                    <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                    <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                    <div class="modal-container">
-                                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                        </div>
-                                        <!--end of modal-content-->
-                                    </div>
-                                    <!--end of modal-container-->
-                                </div>
-                                <!--end of modal instance-->
-                            </div>
-                        </div>
-                        <!--end of row-->
-                    </div>
-                </div>
-            </section>
-  
+           
           
              
 
@@ -468,6 +418,123 @@ As difficulty increases, the number of possible valid hashes decreases. With les
     <!--[if lt IE 9]>
     <script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
     <![endif]-->
+    <script src="js/particles.js"></script>
+
+    <script type="text/javascript">
+    particlesJS('particles-js1',
+{
+  "particles": {
+    "number": {
+      "value": 300,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#111111"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#95c0a9",
+      "opacity": 0.8,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+
+);
+</script>
         <script src="js/easypiechart.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/typed.min.js"></script>

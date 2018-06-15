@@ -1350,5 +1350,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   color: #aaa
 }
 
-http://
-
+@media all and (min-width: 900px) {
+	.animatedglobe {
+		right:0 !important; left: auto !important;
+	}
+}

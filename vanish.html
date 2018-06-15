@@ -89,11 +89,11 @@
                                                 <div class="row">
                                                     <div class="dropdown__content col-lg-2 col-md-4">
                                                         <ul class="menu-vertical">
-                                                            <li class="">
+                                                     <!--        <li class="">
                                                                 <a href="security.html.html">
                                                                     How We Use Security?
                                                                 </a>
-                                                            </li>
+                                                            </li> -->
                                                             <li class="">
                                                                 <a href="blockchain.html">
                                                                     What is Blockchain?
@@ -138,6 +138,13 @@
         </div>
 
         <div class="main-container">
+              <div class="nextBtn">
+                <div class="container">
+                <a class="ct-btn-scroll ct-js-btn-scroll hide-mobile cd-prev" href="" style="height: 30px; width: 30px; left: 10%; top: 90%; position: absolute; z-index:9999; transform: rotate(90deg);"><img alt="Arrow Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                <a class="ct-btn-scroll ct-js-btn-scroll hide-mobile cd-next" href="" style="height: 30px; width: 30px; right: 10%; top: 90%; position: absolute; z-index:9999; transform: rotate(270deg);"><img alt="Arrow Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                </div>
+            </div>
+
             <section class="space--lg cd-section visible" style="background: #1A1A1A;">
                 <div id="particles-js">
                     <div class="container">
@@ -158,23 +165,24 @@
                                 <div class="modal-instance block" style="padding-top:20px;">
                                     <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
                                     <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
+                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;52 Seconds</span>
                                     <div class="modal-container">
                                         <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
+                                            <iframe data-src="https://www.youtube.com/embed/JB5TIljs37I?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5" style="background-image: url(img/iphone-x.png); background-size:cover; background-repeat: no-repeat; float: right !important; height: 600px;"></div>
+                            <div class="col-md-5 hide-mobile" style="background-image: url(img/iphone-x.png); background-size:cover; background-repeat: no-repeat; float: right !important; height: 600px;"></div>
+
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="space--lg cd-section" style="z-index:50; padding-top: 14.7em;">
+            <section class="space--lg cd-section" style="z-index:50;">
                 <div class="container">
-                    <div class="imageblock__content col-lg-4 bg--dark" style="float:right; padding:10px; border-radius: 10px; border: 1px solid #50e3c2;">
+                    <div class="imageblock__content col-lg-4 bg--dark" style="float:right; padding:10px; border-radius: 10px; border: 1px solid #50e3c2; margin-top: -30px; margin-bottom: 20px;">
                         <div class="col-lg-12">
                             <div class="boxed boxed--lg boxed--border box-shadow-wide">
                                 <div class="slider" data-paging="true">
@@ -184,7 +192,7 @@
                                                 <i class="icon icon--lg icon-Key-3 color--secondary colorVanish"></i>
                                                 <h4>Key Management</h4>
                                                 <p>
-                                                    Your private key to unlock all your data is never uploaded to the server. It is only ever stored on your device.
+                                                    Your encryption keys are never uploaded to our server. They are only ever stored on your device.
                                                 </p>
                                             
                                             </div>
@@ -195,7 +203,7 @@
                                                 <i class="icon icon--lg icon-Fingerprint color--primary colorVanish"></i>
                                                 <h4>Privacy</h4>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper orci aliquam elit auctor
+                                                    We allow you to stay private by allowing you to use arbitrary username's when signing up. No more signing up with your phone number and exposing your identity.
                                                 </p>
                                             </div>
                                             <!--end feature-->
@@ -205,7 +213,7 @@
                                                 <i class="icon icon--lg icon-Lock color--primary colorVanish"></i>
                                                 <h4>Encryption</h4>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper orci aliquam elit auctor
+                                                    We use only open-source audited cryptography libraries within Vanish to ensure your data stays secure and private. All our encryption uses 256 to 512 bit ciphers.
                                                 </p>
                                         
                                             </div>
@@ -224,11 +232,11 @@
                                 <p class="lead" style="color: #fff;">
                                     Vanish end-to-end encrypts all your communication including messages, photos calls, group calls, and even status times. Only the intended recipient, and nobody else can read your messages.
                                 </p>
-                                 <a class="btn btn--secondary type--uppercase" href="#">
+                           <!--       <a class="btn btn--secondary type--uppercase" href="#">
                                     <span class="btn__text">
                                         Learn More About Our Security
                                     </span>
-                                </a>
+                                </a> -->
                             
                                 <!--end of modal instance-->
                             </div>
@@ -241,80 +249,58 @@
 
             
 
-            <section class="space--lg cd-section" style="z-index:10; padding-top: 14.7em;">
-                <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="img/mining.png" />
-                    </div>
+            <section class="space--lg cd-section" style="z-index:10;">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Message Retraction</h1>
-                                <p class="lead" style="color: #000;">
-
+                            <div class="col-lg-7" style="float: none; margin: 0 auto; text-align: center;">
+                                <i style="color:#50e3c2; font-size: 16em;" class="icon icon--md block icon-Securiy-Remove"></i> 
+                                <br>              
+                                <h1 style="font-weight:700; color: #fff;">Message Retraction</h1>
+                                <p class="lead" style="color: #fff;">
                                     Vanish allows you to send messages and erase them of the users device indefinitely, making them as private as the spoken word.
                                 </p>
-                                <div class="modal-instance block">
-                                 
-                                    <!--end of modal-container-->
-                                </div>
-                                <!--end of modal instance-->
                             </div>
                         </div>
-                        <!--end of row-->
                     </div>
-                </div>
             </section>
 
-            <section class="space--lg cd-section" style="padding-top: 14.7em;">
-                <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="img/mining.png" />
-                    </div>
+            <section class="space--lg cd-section" style="z-index:10;">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Group Audio & Video Calls</h1>
-                                <p class="lead" style="color: #000;">
+                            <div class="col-lg-7" style="float: none; margin: 0 auto; text-align: center;">
+                                <i style="color:#50e3c2; font-size: 16em;" class="icon icon--md block icon-Phone-2"></i>                  
+                                <br>
+                                <h1 style="font-weight:700; color: #fff;">Group Audio & Video Calls</h1>
+                                <p class="lead" style="color: #fff;">
                                     Vanish makes secure communication easy and fun. With audio calls with up to 20,000 participants and video calls with up to 7. 
                                 </p>
-                                <div class="modal-instance block">
-                                   
-                                </div>
-                                <!--end of modal instance-->
                             </div>
                         </div>
-                        <!--end of row-->
                     </div>
-                </div>
-              </section>
+            </section>
 
-            <section class="space--lg cd-section" style="padding-top: 14.7em; z-index: 10; background: #fff;">
+      
+
+            <section class="space--lg cd-section" style="z-index: 10;">
                  <div class="container">
-                    <div class="imageblock__content col-lg-6" style="float:right;">
-                        <img src="https://cdn.dribbble.com/users/295218/screenshots/3997783/peer-to-peer-economy.png" />
-                    </div>
+                
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <h1 style="font-weight:700; color: #000;">Blockchain Coming Soon</h1>
-                                <p class="lead" style="color: #000;">
+                            <div class="col-lg-6">
+                                <h1 style="font-weight:700; color: #fff;">Blockchain Coming Soon</h1>
+                                <p class="lead" style="color: #fff;">
                                     Introducing <b>Blockstore</b> powered by the peer to peer protocol IPFS, each file is stored using patent pending encryption in a decentralised manner. The hash of the file is subsequently stored on the blockchain. Allowing for “storing”, encrypting, and sharing large data and files on the blockchain. Coming to Vanish Messenger soon to allow for added data security and protection.
 
                                 </p>
-                                <div class="modal-instance block">
-                                    <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
-                                    <span>
-                                        <strong>Watch Overview</strong>&nbsp;&nbsp;&nbsp;104 Seconds</span>
-                                    <div class="modal-container">
-                                        <div class="modal-content bg-dark" data-width="60%" data-height="60%">
-                                            <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe>
-                                        </div>
-                                        <!--end of modal-content-->
-                                    </div>
-                                    <!--end of modal-container-->
-                                </div>
+                                    <a class="btn btn--secondary type--uppercase" href="blockchain.html">
+                                    <span class="btn__text">
+                                        Learn More About The Blockchain
+                                    </span>
+                                </a>
                                 <!--end of modal instance-->
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="particles-js1" style="height:390px; margin-top:0px !important;"></div>
                             </div>
                         </div>
                         <!--end of row-->
@@ -469,20 +455,19 @@
   Draw();
   
 </script>
-<script>
-particlesJS('particles-js',
-  
-  {
+<script type="text/javascript">
+    particlesJS('particles-js1',
+{
   "particles": {
     "number": {
-      "value": 500,
+      "value": 300,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#333"
+      "value": "#111111"
     },
     "shape": {
       "type": "circle",
@@ -500,12 +485,12 @@ particlesJS('particles-js',
       }
     },
     "opacity": {
-      "value": 1,
-      "random": true,
+      "value": 0.5,
+      "random": false,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
-        "opacity_min": 0,
+        "opacity_min": 0.1,
         "sync": false
       }
     },
@@ -514,30 +499,30 @@ particlesJS('particles-js',
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 4,
-        "size_min": 0.3,
+        "speed": 40,
+        "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": false,
+      "enable": true,
       "distance": 150,
-      "color": "#333",
-      "opacity": 0.4,
-      "width": 1
+      "color": "#95c0a9",
+      "opacity": 0.8,
+      "width": 2
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 6,
       "direction": "none",
-      "random": true,
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 600,
-        "rotateY": 600
+        "rotateY": 1200
       }
     }
   },
@@ -546,11 +531,11 @@ particlesJS('particles-js',
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "push"
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "push"
       },
       "resize": true
     },
@@ -562,14 +547,14 @@ particlesJS('particles-js',
         }
       },
       "bubble": {
-        "distance": 250,
-        "size": 0,
+        "distance": 400,
+        "size": 40,
         "duration": 2,
-        "opacity": 0,
+        "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
