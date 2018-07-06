@@ -123,7 +123,7 @@ function showFallback() {
 function setupScene() {
 
 	canvas = container.getElementsByClassName('js-canvas')[0];
-
+	console.log(canvas);
 	scene = new THREE.Scene();
 	renderer = new THREE.WebGLRenderer({
 		canvas: canvas,
@@ -583,7 +583,7 @@ function createListElements() {
 
  	list = document.getElementsByClassName('js-list')[0];
 
- 	var listOfNames = ["Max", "Jack", "Rachel", "Sasha", "Priyanka", "Malcolm", "Anna", "Mattia", "Peter", "Richard", "Melanie", "Xi Lee", "Mohammed"];
+ 	var listOfNames = ["Max", "Jack", "Rachel", "Sasha", "Ashok", "Malcolm", "Anna", "Mattia", "Peter", "Richard", "Melanie", "Xi Lee", "Mohammed"];
 	var pushObject = function(coordinates, target, i) {
 
 		// Create the element

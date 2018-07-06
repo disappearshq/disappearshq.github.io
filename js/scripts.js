@@ -13,6 +13,8 @@ mr = (function (mr, $, window, document){
     $(document).ready(documentReady);
     $(window).on("load", windowLoad);
 
+    console.log(mr.status);
+
     function documentReady(context){
         
         context = typeof context === typeof undefined ? $ : context;
@@ -2756,6 +2758,7 @@ mr = (function (mr, $, window, document){
     
 
     mr.typed.documentReady = function($){
+        console.log($('span'));
         $('.typed-text').each(function(){
             var text = $(this);
             var strings = text.attr("data-typed-strings") ? text.attr("data-typed-strings").split(",") : [],
